@@ -8,12 +8,12 @@ version = "0.1.0"
 description = "Dependency-free, CPU-only toolkit for CAFA-style protein function (GO term) prediction baselines."
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "MIT" }
+license = { text = "Apache-2.0" }
 authors = [{ name = "MV2 of Munim, Inc." }]
 keywords = ["bioinformatics", "protein-function-prediction", "gene-ontology", "cafa", "diamond"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Intended Audience :: Science/Research",
 ]
