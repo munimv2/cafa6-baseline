@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/munimv2/cafa6-baseline"
+Homepage = "https://github.com/munimtechnologies/cafa6-baseline"
 
 [tool.setuptools]
 packages = ["cafa_baseline"]
