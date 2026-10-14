@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cafa6-baseline"
+version = "0.1.0"
+description = "Dependency-free, CPU-only toolkit for CAFA-style protein function (GO term) prediction baselines."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "MV2 of Munim, Inc." }]
+keywords = ["bioinformatics", "protein-function-prediction", "gene-ontology", "cafa", "diamond"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Intended Audience :: Science/Research",
+]
+
+[project.urls]
+Homepage = "https://github.com/munimv2/cafa6-baseline"
+
+[tool.setuptools]
+packages = ["cafa_baseline"]

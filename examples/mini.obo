@@ -1,0 +1,31 @@
+format-version: 1.2
+ontology: go
+
+[Term]
+id: GO:0008150
+name: biological_process
+namespace: biological_process
+
+[Term]
+id: GO:0009987
+name: cellular process
+namespace: biological_process
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0008152
+name: metabolic process
+namespace: biological_process
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0044237
+name: cellular metabolic process
+namespace: biological_process
+is_a: GO:0009987 ! cellular process
+is_a: GO:0008152 ! metabolic process
+
+[Typedef]
+id: part_of
+name: part of
+is_transitive: true
